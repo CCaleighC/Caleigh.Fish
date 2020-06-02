@@ -1,0 +1,17 @@
+body {
+    background-color: #79669c;
+    font: 400 100px/1.5 'Nunito', sans-serif;
+        color: #2b2b2b;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);    
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 7; }
+    .div2 { grid-area: 2 / 1 / 11 / 3; }
+    .div3 { grid-area: 2 / 3 / 11 / 6; }
