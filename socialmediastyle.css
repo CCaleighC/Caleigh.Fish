@@ -1,9 +1,31 @@
 body {
     background-color: #79669c;
-    font: 400 100px/1.5 'Nunito', sans-serif;
-        color: #2b2b2b;
-        text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);    
-}
+    font-family: 'Balsamiq Sans', cursive;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);    
+    }
+
+a {
+    background-color: #79669c;
+    font: 10 px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05); 
+    }
+
+li {
+    float: right;
+    display: inline;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 159px;
+    text-decoration: none;
+    }
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -12,6 +34,6 @@ body {
     grid-row-gap: 0px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 7; }
-    .div2 { grid-area: 2 / 1 / 11 / 3; }
-    .div3 { grid-area: 2 / 3 / 11 / 6; }
+.header { grid-area: 1 / 1 / 2 / 7; }
+.div2 { grid-area: 2 / 1 / 11 / 3; }
+.div3 { grid-area: 2 / 3 / 11 / 6; }
